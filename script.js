@@ -23,11 +23,11 @@ let arr = []; //creating array for pushing the div of the  alarms ,this array ne
 light.addEventListener("click", function () {
   if (dayMode) {
     color.className = "nightColor";
-    light.style.color = "black";
+    // light.style.color = "black";
     dayMode = !dayMode;
   } else {
     color.className = "";
-    light.style.color = "white";
+    // light.style.color = "white";
     dayMode = !dayMode;
   }
 });

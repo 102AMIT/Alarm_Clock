@@ -199,12 +199,13 @@ body {
 #delete-alarm-area {
   width: 100%;
   /* border: 2px solid white; */
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 
 #delete-alarm-area h1 {
-  margin-left: 10%;
+  /* margin-left: 10%; */
   margin-top: 5px;
+  
 }
 
 .list-alarms {
@@ -243,7 +244,7 @@ body {
 
 .delete-alarm button {
 
-  margin-left: 25%;
+  margin-left: 40%;
   height: 30px;
   width: 25%;
   border-radius: 5px;
