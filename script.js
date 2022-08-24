@@ -79,15 +79,24 @@ setAlarm.addEventListener("click", function () {
     //adding the alarm and put on new alarm then add in listAlarm as inner HTML
 
     let newAlarm = `
-        <div class="delete-alarm">
+        <li class="delete-alarm">
             <h1 id="upcoming-alarm">${hour.value}:${minute.value}:${second.value}${ampm.value}</h1>
             <button class="btn delete-btn" onclick='alarmDelete(${count})'  type="">Delete Alarm</button>;
-        </div>`;
+        </li>`;
     allAlarms.push(newAlarm);
     count++;
     setAllAlarm();
     countDelete++;
   }
+
+  // let listUl=document.getElementById('alarm-list');
+  // console.log("listUl",listUl);
+  // let listItem=document.createElement(`li`);
+  // listItem.textContent='hello i am list';
+  // listItem.setAttribute("class", "democlass");
+  // listUl.appendChild(listItem);
+  // console.log("afterAppend",listUl);
+  // console.log("listItem",listItem);
 
   //pushing the alarm in array on every click on set alarm button
   arr.push(`${hour.value}:${minute.value}:${second.value}${ampm.value}`);
